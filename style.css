@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #2563EB;
+    --brown-color:#92400E;
+    --white-color:#F87171;
+    --grey-color:#4B5563;
+}
+
+body {
+    color: var(--grey-color);
+    font-family: 'Caveat', cursive;
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url('./images/hero.jpg');
+    background-size: cover;
+  
+}
+
+.hero {
+    padding-block: 0.5rem;
+    padding-top: 0rem;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    font-size: 4.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    color: var(--brown-color);
+}
+
+#txt-input, #output {
+    color:var(--white-color);
+    margin: auto;
+    display: block;
+    padding: 0.5rem;
+    width: 60%;
+    height: 12vh;
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    border-width: 0.1rem;
+    border-color: var(--brown-color);
+    border-radius: 0.78rem;
+    background-color: var(--brown-color);
+    opacity: 0.9
+}
+button {
+    font-family: 'Caveat', cursive;
+    display: block;
+    margin: 0rem auto;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    color: var(--white-color);
+    background-color: var(--brown-color);
+    border-color: var(--white-color);
+}
+.footer {
+    background-color: var(--grey-color);
+    padding: 1rem;
+    color: var(--white-color-color);
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
